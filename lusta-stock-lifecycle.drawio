@@ -105,6 +105,11 @@
         <mxCell id="hDBUfYdfmwoxR4bRSzki-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hDBUfYdfmwoxR4bRSzki-27" target="hDBUfYdfmwoxR4bRSzki-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hDBUfYdfmwoxR4bRSzki-45" value="item is in&lt;div&gt;&amp;nbsp;a collection&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hDBUfYdfmwoxR4bRSzki-35">
+          <mxGeometry x="-0.1541" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hDBUfYdfmwoxR4bRSzki-27" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="374" y="940" width="80" height="80" as="geometry" />
         </mxCell>
