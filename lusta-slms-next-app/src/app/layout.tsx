@@ -1,14 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const playfair = Playfair_Display({
+  variable: "--font-newyork",
   subsets: ["latin"],
 });
 
@@ -24,10 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${playfair.variable} antialiased`}
       >
-        {children}
+        <main>{children}</main>
+        <Toaster />
       </body>
     </html>
   );
